@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     function getWeather(location) {
-        const apiUrl = `http://api.weatherapi.com/v1/current.json?key=7f069434f4854b65b6541228240604&q=${location}=no`;
+        const apiUrl = `https://api.weatherapi.com/v1/current.json?key=7f069434f4854b65b6541228240604&q=${location}=no`;
 
         fetch(apiUrl)
             .then(response => {
